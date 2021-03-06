@@ -67,6 +67,7 @@ img {
 .header .container {
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 
 .container {
@@ -84,6 +85,7 @@ img {
 .navigation-list {
   display: flex;
   align-items: center;
+  margin-left: 93px;
 }
 
 .logo {
@@ -145,6 +147,18 @@ img {
   color: var(--accent-text-color);
 }
 
+.header-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-list-link:not (:last-child) {
+  margin-right: 50px;
+}
+
+.header {
+  border: 1px solid #ececec;
+}
 /*==========HEADER END============*/
 
 /*==========HERO============*/
@@ -285,6 +299,14 @@ img {
   padding-bottom: 60px;
 }
 
+.footer-container {
+  margin-bottom: 20px;
+}
+
+.footer-list-item:not (:last-child) {
+  margin-bottom: 9px;
+}
+
 .contact-adress {
   font-weight: 500;
   font-size: 14px;
@@ -335,6 +357,12 @@ img {
 }
 
 .filter-services {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-radius: 4px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -357,6 +385,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--accent-title-color);
+  margin-bottom: 4px;
 }
 
 .project-item {
@@ -369,7 +398,7 @@ img {
 }
 
 .filter-projects .container {
-  display: flex;
+  /*display: flex;*/
   align-items: center;
 }
 
@@ -377,6 +406,9 @@ img {
   display: flex;
   margin-left: -30px;
   margin-top: -30px;
+  justify-content: center;
+  margin-bottom: 50px;
+  align-items: center;
 }
 
 .services-list-item {
@@ -386,8 +418,13 @@ img {
 }
 
 .project-list-content {
-  padding-top: 26px;
-  padding-bottom: 26px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
 .services-list-item:not(:last-child) {
@@ -398,12 +435,18 @@ img {
   display: flex;
   margin-left: -30px;
   margin-top: -30px;
+  flex-wrap: wrap;
 }
 
 .project-list-item {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
+}
+
+.filter-projects {
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 
 /*==========FILTER PROJECT END============*/
