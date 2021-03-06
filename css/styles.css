@@ -363,7 +363,7 @@ img {
   padding-left: 22px;
   padding-right: 22px;
   border-radius: 4px;
-  margin: auto;
+  border: transparent;
 
   font-weight: 500;
   font-size: 16px;
@@ -400,23 +400,14 @@ img {
 }
 
 .filter-projects .container {
-  /*display: flex;*/
   align-items: center;
 }
 
 .services-list {
   display: flex;
-  margin-left: -30px;
-  margin-top: -30px;
   justify-content: center;
   margin-bottom: 50px;
   align-items: center;
-}
-
-.services-list-item {
-  margin-left: 30px;
-  margin-top: 30px;
-  flex-basis: calc(100% / 5 - 30px);
 }
 
 .project-list-content {
