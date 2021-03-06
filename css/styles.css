@@ -171,6 +171,7 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
   /*color: var(--primary-white-color) ;*/
 }
 
@@ -183,10 +184,6 @@ img {
 /*==========HERO END============*/
 
 /*==========ADVANTAGES============*/
-.advantages {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .advantages-list {
   display: flex;
@@ -194,16 +191,19 @@ img {
   margin-top: -30px;
 }
 
-.advantages-item {
+.advantages-list-item {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 4 - 30px);
+}
+
+.advantages-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-title-color);
-  margin-left: 30px;
-  margin-top: 30px;
-  flex-basis: calc(100% / 4 - 30px);
   margin-bottom: 10px;
 }
 
@@ -354,6 +354,7 @@ img {
   cursor: pointer;
   background-color: var(--accent-color);
   border-radius: 4px;
+  margin: auto;
 }
 
 .filter-services {
@@ -362,6 +363,7 @@ img {
   padding-left: 22px;
   padding-right: 22px;
   border-radius: 4px;
+  margin: auto;
 
   font-weight: 500;
   font-size: 16px;
