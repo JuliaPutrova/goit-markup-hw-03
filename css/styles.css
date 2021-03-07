@@ -95,7 +95,6 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-  margin-right: 93px;
 }
 
 .navigation-item:not(:last-child) {
@@ -152,12 +151,12 @@ img {
   margin-left: auto;
 }
 
-.header-list-link:not (:last-child) {
+.header-list-link:not(:last-child) {
   margin-right: 50px;
 }
 
 .header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 /*==========HEADER END============*/
 
@@ -213,6 +212,11 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--accent-text-color);
+}
+
+.advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /*==========ADVANTAGES END============*/
@@ -303,8 +307,12 @@ img {
   margin-bottom: 20px;
 }
 
-.footer-list-item:not (:last-child) {
+.footer-list-item:not(:last-child) {
   margin-bottom: 9px;
+}
+
+.container-logo {
+  margin-bottom: 20px;
 }
 
 .contact-adress {
