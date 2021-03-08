@@ -239,6 +239,10 @@ img {
   flex-basis: calc(100% / 3 - 30px);
 }
 
+.work {
+  padding-bottom: 94px;
+}
+
 /*==========WORK END============*/
 
 /*==========TEAM============*/
@@ -301,10 +305,6 @@ img {
   background-color: var(--footer-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.footer-container {
-  margin-bottom: 20px;
 }
 
 .footer-list-item:not(:last-child) {
@@ -446,8 +446,8 @@ img {
 }
 
 .filter-projects {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /*==========FILTER PROJECT END============*/
